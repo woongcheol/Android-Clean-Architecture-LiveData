@@ -1,2 +1,5 @@
-# Android-Clean-Architecture-LiveData
-AAC 라이브러리 - Android LiveData 구현하기
+## 맨땅에 안드로이드 : LiveData
+안드로이드 클린 아키텍쳐를 알아가고 있습니다. 라이브러리 LiveData는 다음 [자료](https://todaycode.tistory.com/49)를 참고하여 구현했으며,  
+지속적으로 업데이트 될 예정입니다.  
+
+`최근 업데이트 : '22. 08. 07.`
