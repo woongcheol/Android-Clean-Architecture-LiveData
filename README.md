@@ -1,4 +1,4 @@
-`최근 업데이트 : '22. 08. 15.`
+`최근 업데이트 : '22. 09. 15.`
 
 ![image](https://user-images.githubusercontent.com/86638578/183851710-91769369-8591-4ce4-b6d8-f057530005aa.png)
 ## 개요
@@ -18,8 +18,17 @@
 
 - 관찰된 데이터에 변경이 일어나면 UI 컨트롤러(Activity)에 전달되고 이를 통해 UI 컨트롤러는 UI를 업데이트 합니다.
 
-### 2. Live Cycle이란?
-- 작성 예정
+### 2. Life Cycle이란?
+
+- LiveDate는 lifecycle-aware component 입니다. Life Cycle에 영향을 받으며 observer가 위치한 View가 사라지면 LiveData도 사라지게 됩니다.
+
+- Activity나 Fragment 같은 컴포넌트의 생명 주기 상태에 대한 정보를 다른 객체가 이를 관찰하도록 지원하는 클래스입니다.
+
+- 이를 통해 라이프 사이클을 고려할 수 있어 메모리 leak과 앱 crash를 방지할 수 있습니다.
+
+- LifecycleOwner는 Activity 객체를 의미하며, 내부에 있는 Lifecycle 객체에 액티비티 상태를 제공합니다.
+
+- LifecycleObserver는 Lifecycle로부터 Activity 상태변화에 대한 이벤트를 받습니다.
 
 ### 3. LiveData와 MutableLiveData에 대한 차이
 - MutableLiveData는 추상 클래스인 LiveData를 상속받은 클래스입니다.
