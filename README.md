@@ -20,7 +20,7 @@
 
 ### 2. Life Cycle이란?
 
-- LiveDate는 lifecycle-aware component 입니다. Life Cycle에 영향을 받으며 observer가 위치한 View가 사라지면 LiveData도 사라지게 됩니다.
+- LiveData는 lifecycle-aware component 입니다. Life Cycle에 영향을 받으며 observer가 위치한 View가 사라지면 LiveData도 사라지게 됩니다. * component -> 자신 만의 역할이 있는 코드 컴포넌트를 의미
 
 - Activity나 Fragment 같은 컴포넌트의 생명 주기 상태에 대한 정보를 다른 객체가 이를 관찰하도록 지원하는 클래스입니다.
 
